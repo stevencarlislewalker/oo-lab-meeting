@@ -9,8 +9,8 @@
 #   - start with one function (area)
 #
 # - get told by users:
-#   - we need another shape (rectangle)
 #   - we need another function (perimeter)
+#   - we need another shape (rectangle)
 
 
 
@@ -51,6 +51,7 @@ Circle = function(radius = 1, centre_x = 0, centre_y = 0) {
 area = function(shape) UseMethod("area")
 area.Square = function(shape) shape$side^2
 area.Circle = function(shape) pi * shape$radius^2
+
 
 
 
@@ -163,7 +164,7 @@ perimeter(big_circle)
 #   - a new shape
 #   - now i need to change the above code
 #   - this is not ideal from a maintenance perspective
-#   - it is easy to just add a new constructor -- but i do need to modify
+#   - it is easy to just add a new constructor -- but i _do_ need to modify
 #     the existing functions
 
 Rectangle = function(height = 1, width = 1, top_left_x = 0, top_left_y = 0) {

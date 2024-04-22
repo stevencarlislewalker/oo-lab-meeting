@@ -1,8 +1,13 @@
 # motivation
 # ----------
-# how can we make design decisions that make it easier to add functionality to
-# existing software, as users provide feedback?
-
+# - how can we make design decisions that make it easier to add functionality to
+#   existing software, as users provide feedback?
+#
+# - meeting the first deadline is easier if you do not think about the future
+# - meeting subsequent deadlines are harder if you do not think about the future
+#
+# - users will ask for changes and you need to be ready
+#   (although somehow i never am ... so who knows).
 
 # resources
 # ---------
@@ -11,21 +16,59 @@
 
 # definitions
 # -----------
+#
 # proc: procedural programming
-# oop:  object-oriented programming
 # data structure: information stored in some pre-defined way (e.g. data frames,
 #                 argument lists, sparse matrices).
 # functions: something that creates data structures based on other
 #            data structures.
+#
+# oop: object-oriented programming
 # object: collection of data structures and functions that can implicitly
 #         utilize these data.
+#
 # constructor: a function that creates a data structure or an object.
 
 
-# idea
-# ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# design principle
+# ----------------
 # oop:  easy to add/change data structures but difficult to add/change functions.
 # proc: easy to add/change functions but difficult to add/change data structures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # illustrative examples
