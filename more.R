@@ -78,6 +78,34 @@
 #   - oop-shapes.R
 #
 # - nothing is hard in toy examples.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+# conclusions
+# -----------
+# - nothing is hard in toy examples.
 #   - in real projects, it is more difficult to make changes.
 #   - harder in real projects to keep program components independent.
 #
